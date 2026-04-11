@@ -3,7 +3,7 @@ import { homePage } from './restaurant.js';
 import { menuPage } from "./menu.js";
 import { contactPage } from "./contact.js";
 
-console.log(homePage());
+homePage();
 
 import restaurantImage2 from "./restaurant2.jpg";
 const secondImage = document.createElement('img');
